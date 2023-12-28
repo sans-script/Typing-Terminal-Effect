@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Mono&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.typewriter{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.text-animation .typewriter .typewriter_caret {
+  animation: blink 1.2s infinite;
+  color: #fff;
+  display: none;
+}
+.container{
+  font-size: 30px;
+  border: 1px solid white;
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+#typewriter_body, #typewriter_heading{
+  color: #F1FA8C;
+}
+.user{
+  color: #F1FA8C;
+}
+.folder{
+  color: #8BE9FD;
+}
+.branch, .fa-code-branch{
+  color: #FF79C6;
+}
+.fa-code-branch{
+  font-size: 25px;
+}
+.dollar2{
+  display: none;
+  color: #50FA7B;
+  
+}
+.dollar{
+  color: #50FA7B;
+}
+p{
+  padding-bottom: 10px;
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+@media (max-width: 800px) {
+  .container{
+    font-size: 18px;
+  }
+  .fa-code-branch{
+    font-size: 18px;
+  }
+  .container{
+    border: 1px solid white;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
